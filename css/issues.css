@@ -1,0 +1,24 @@
+h3{
+    color: antiquewhite;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+    padding-top: -48%;
+}
+
+
+h1{
+ color: beige;
+}
+
+img{
+    width: auto ;
+    height: auto;
+    float : left;
+    border-radius:30%;
+    position: relative;
+}
+
+p,li{
+    color: white;
+}

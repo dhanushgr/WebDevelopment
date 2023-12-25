@@ -1,0 +1,19 @@
+body{
+    background-image: url("nature2.jpg");
+}
+
+h3{
+    color: antiquewhite;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+    padding-top: -48%;
+}
+
+h1{
+    color: beige;
+}
+
+p{
+    color: white;
+}
