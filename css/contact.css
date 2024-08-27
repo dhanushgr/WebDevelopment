@@ -1,6 +1,5 @@
 body{
-    background-color: rgb(136, 153, 136);
-    background-image: url("nature5.jpg");
+    background-image: url("../images/nature5.jpg");
 }
 table,th,td,tr{
     text-align: center;
