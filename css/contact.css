@@ -1,14 +1,24 @@
-body{
-    background-image: url("../images/nature5.jpg");
+body {
+  background-image: url("../images/nature2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 table {
   border-collapse: collapse;
   margin: auto;
 }
-th, td {
+th,
+td {
   border: 1px solid #ccc;
+  border-color: black;
   padding: 10px;
   text-align: center;
+}
+th {
+  color: white;
+  background-color: darkgreen;
 }
 tr:nth-child(even) {
   background-color: #eee;
@@ -17,11 +27,16 @@ tr:nth-child(odd) {
   background-color: #fff;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
 
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -35,8 +50,9 @@ input[type=text], select, textarea {
 caption {
   padding: 10px;
   text-align: center;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fff;
+  background-color: darkgreen;
   font-size: large;
 }
 .container {
@@ -45,10 +61,16 @@ caption {
   padding: 20px;
 }
 
-h1{
+h1 {
   color: white;
+  text-align: center;
+  border-style: groove;
+  border-radius: 10px;
+  border-color: lightgreen;
+  margin: 10px;
+  font-size: 40px;
 }
 
-a{
+a {
   color: rgb(21, 18, 202);
 }

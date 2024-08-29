@@ -1,30 +1,48 @@
-body{
-    background-image: url("../images/nature5.jpg");
-    margin-bottom:50%;
-    /* margin-left: 20%;
+body {
+  background-image: url("../images/nature2.jpg");
+  margin-bottom: 10%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  /* margin-left: 20%;
     margin-right: 20%; */
 }
-h3{
-    color: white;
-    text-decoration: underline;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 15px;
-    padding-top: -48%;
-}
-h1{
- color: white;
+
+h3 {
+  color: antiquewhite;
+  text-decoration: underline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 15px;
+  padding-top: -48%;
+  font-size: 35px;
 }
 
-img{
-    width: auto ;
-    height: auto;
-    float : left;
-    border-radius:30%;
-    position: relative;
+h1 {
+  color: beige;
+  border-style: groove;
+  border-radius: 10px;
+  border-color: lightgreen;
+  margin: 10px;
+  font-size: 40px;
 }
 
-p,li{
-    color: white;
-    padding: auto;
-    font-size: medium;
+img {
+  width: auto;
+  height: auto;
+  float: left;
+  border-radius: 30%;
+  position: relative;
+}
+
+p {
+  color: white;
+  margin: 20px;
+  font-size: 22px;
+}
+
+h3,
+p {
+  padding-left: 18%;
+  padding-right: 18%;
 }
